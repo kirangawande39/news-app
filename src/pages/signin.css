@@ -1,0 +1,55 @@
+.contaner {
+    margin-top: 200px;
+    margin-left: 70vw;
+    padding: 22px;
+    background-color: rgb(99, 135, 202);
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: 10px 10px 15px rgb(142, 140, 140);
+    border: 2px solid rgb(51, 72, 235);
+     position: fixed;
+     top: -180%;
+     transition: 0.3s;
+     z-index: 1;
+}
+.show_container{
+    top: 10%;
+}
+input {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 9px;
+     
+}
+
+
+#btn {
+    width: 205px;
+}
+
+#btn:hover {
+    background-color: rgb(9, 9, 224);
+    color: white;
+}
+
+.error {
+    color: red;
+}
+.closebtn{
+    border: 2px solid black;
+    position: absolute;
+    padding: 3px;
+    right: 0px;
+    top: 0%;
+    cursor: pointer;
+}
+
+.closebtn:hover{
+    background-color: red;
+}
+
+ul li:hover{
+    background-color: rgb(42, 91, 238);
+    border-radius: 50px;
+}
